@@ -10,3 +10,9 @@ You can follow along with the [guide](https://nrempel.com/how-to-publish-a-pytho
 To apply a custom name to your package, run:
 
 python3 apply_custom_naming.py
+
+
+In order for the automated publishing workflow to work on release, you must first add these secrets, as they are not automatically imported from the template:
+    
+    PYPI_USERNAME
+    PYPI_PASSWORD
