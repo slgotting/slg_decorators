@@ -1,4 +1,5 @@
 import cProfile
+import time
 
 
 def cProfile_dec(sort_by='tottime'):
