@@ -131,7 +131,7 @@ def db_lookup(db, coll, key, last_updated=720):
     last_updated: int or float
       How long (in hours) before a cached value is re-updated
     '''
-    from mongo_engine import *
+    from mongo_engine import MongoEngine
 
     if last_updated:
         last_updated_seconds = last_updated * 3600
